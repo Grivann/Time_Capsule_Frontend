@@ -8,7 +8,7 @@ export const loginUser = async (username, password) => {
             username,
             password,
         });
-        return response.data.key; // Token mil jayega
+        return response.data.key; 
     } catch (error) {
         console.error("Login failed", error);
         return null;
